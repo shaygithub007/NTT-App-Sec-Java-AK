@@ -4,7 +4,7 @@ build_rules:
   - id: no-net-new-high-impact
     finding_types:
       - vuln
-      - secrets      
+      - secret      
     severity:
       - "critical" 
       - "moderate"
